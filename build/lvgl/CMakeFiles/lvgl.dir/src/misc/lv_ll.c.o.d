@@ -1,0 +1,22 @@
+lvgl/CMakeFiles/lvgl.dir/src/misc/lv_ll.c.o: \
+ /home/victor/0-project1/lvgl/src/misc/lv_ll.c \
+ /usr/local/arm-linux/arm-linux-gnueabi/libc/usr/include/stdc-predef.h \
+ /home/victor/0-project1/lvgl/src/misc/lv_ll.h \
+ /usr/local/arm-linux/lib/gcc/arm-linux-gnueabi/5.5.0/include/stdint.h \
+ /usr/local/arm-linux/arm-linux-gnueabi/libc/usr/include/stdint.h \
+ /usr/local/arm-linux/arm-linux-gnueabi/libc/usr/include/features.h \
+ /usr/local/arm-linux/arm-linux-gnueabi/libc/usr/include/sys/cdefs.h \
+ /usr/local/arm-linux/arm-linux-gnueabi/libc/usr/include/bits/wordsize.h \
+ /usr/local/arm-linux/arm-linux-gnueabi/libc/usr/include/gnu/stubs.h \
+ /usr/local/arm-linux/arm-linux-gnueabi/libc/usr/include/gnu/stubs-soft.h \
+ /usr/local/arm-linux/arm-linux-gnueabi/libc/usr/include/bits/wchar.h \
+ /usr/local/arm-linux/lib/gcc/arm-linux-gnueabi/5.5.0/include/stddef.h \
+ /usr/local/arm-linux/lib/gcc/arm-linux-gnueabi/5.5.0/include/stdbool.h \
+ /home/victor/0-project1/lvgl/src/misc/../stdlib/lv_mem.h \
+ /home/victor/0-project1/lvgl/src/misc/../stdlib/../lv_conf_internal.h \
+ /home/victor/0-project1/lvgl/src/misc/../stdlib/../lv_conf_kconfig.h \
+ /home/victor/0-project1/lv_conf.h \
+ /usr/local/arm-linux/arm-linux-gnueabi/libc/usr/include/string.h \
+ /usr/local/arm-linux/arm-linux-gnueabi/libc/usr/include/xlocale.h \
+ /home/victor/0-project1/lvgl/src/misc/../stdlib/../misc/lv_types.h \
+ /home/victor/0-project1/lvgl/src/misc/../stdlib/../misc/../lv_conf_internal.h

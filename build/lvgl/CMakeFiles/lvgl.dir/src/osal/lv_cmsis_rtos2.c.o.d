@@ -1,0 +1,19 @@
+lvgl/CMakeFiles/lvgl.dir/src/osal/lv_cmsis_rtos2.c.o: \
+ /home/victor/0-project1/lvgl/src/osal/lv_cmsis_rtos2.c \
+ /usr/local/arm-linux/arm-linux-gnueabi/libc/usr/include/stdc-predef.h \
+ /home/victor/0-project1/lvgl/src/osal/lv_os.h \
+ /home/victor/0-project1/lvgl/src/osal/../lv_conf_internal.h \
+ /home/victor/0-project1/lvgl/src/osal/../lv_conf_kconfig.h \
+ /home/victor/0-project1/lv_conf.h \
+ /home/victor/0-project1/lvgl/src/osal/../misc/lv_types.h \
+ /home/victor/0-project1/lvgl/src/osal/../misc/../lv_conf_internal.h \
+ /usr/local/arm-linux/lib/gcc/arm-linux-gnueabi/5.5.0/include/stdint.h \
+ /usr/local/arm-linux/arm-linux-gnueabi/libc/usr/include/stdint.h \
+ /usr/local/arm-linux/arm-linux-gnueabi/libc/usr/include/features.h \
+ /usr/local/arm-linux/arm-linux-gnueabi/libc/usr/include/sys/cdefs.h \
+ /usr/local/arm-linux/arm-linux-gnueabi/libc/usr/include/bits/wordsize.h \
+ /usr/local/arm-linux/arm-linux-gnueabi/libc/usr/include/gnu/stubs.h \
+ /usr/local/arm-linux/arm-linux-gnueabi/libc/usr/include/gnu/stubs-soft.h \
+ /usr/local/arm-linux/arm-linux-gnueabi/libc/usr/include/bits/wchar.h \
+ /usr/local/arm-linux/lib/gcc/arm-linux-gnueabi/5.5.0/include/stddef.h \
+ /home/victor/0-project1/lvgl/src/osal/lv_os_none.h
