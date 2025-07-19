@@ -285,7 +285,7 @@ void ui_login_create(void)
     lv_obj_align(username_ta, LV_ALIGN_TOP_MID, 0, 80);
     lv_obj_set_style_text_font(username_ta, &lv_mysongti_font_20, 0);
     lv_textarea_set_placeholder_text(username_ta, "用户名");
-    lv_textarea_set_text(username_ta, "guest"); // 默认输入guest
+    lv_textarea_set_text(username_ta, "admin"); // 默认输入guest
     lv_obj_add_event_cb(username_ta, ta_event_cb, LV_EVENT_ALL, NULL);
 
     // 密码输入框
@@ -294,8 +294,8 @@ void ui_login_create(void)
     lv_obj_align_to(password_ta, username_ta, LV_ALIGN_OUT_BOTTOM_MID, 0, 20);
     lv_obj_set_style_text_font(password_ta, &lv_mysongti_font_20, 0);
     lv_textarea_set_placeholder_text(password_ta, "密码");
-    lv_textarea_set_password_mode(password_ta, true); // 自动隐藏
     lv_textarea_set_text(password_ta, "123456"); // 默认输入123456
+    lv_textarea_set_password_mode(password_ta, true); // 自动隐藏
     lv_obj_add_event_cb(password_ta, ta_event_cb, LV_EVENT_ALL, NULL);
 
     // 登录按钮

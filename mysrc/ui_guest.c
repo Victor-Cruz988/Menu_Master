@@ -222,6 +222,11 @@ static void ui_payment_success_create(void)
     lv_obj_set_style_text_font(order_label, &lv_font_montserrat_38, 0);
     lv_obj_align(order_label, LV_ALIGN_TOP_MID, 0, 80);
 
+    lv_obj_t *lbl_desk = lv_label_create(ticket_bg);
+    lv_label_set_text_fmt(lbl_desk, "桌号: %d", rand() % 100 - 1);
+    lv_obj_set_style_text_font(lbl_desk, &lv_mysongti_font_20, 0);
+    lv_obj_align(lbl_desk, LV_ALIGN_TOP_MID, 0, 130);
+
     lv_obj_t *lbl_order = lv_label_create(ticket_bg);
     lv_label_set_text(lbl_order, "订单已提交\n请耐心等待");
     lv_obj_set_style_text_font(lbl_order, &lv_mysongti_font_20, 0);
@@ -541,7 +546,7 @@ void ui_cart_create(void)
         lv_obj_set_style_bg_opa(mask, LV_OPA_50, 0); // 半透明
         lv_obj_clear_flag(mask, LV_OBJ_FLAG_SCROLLABLE);
         lv_obj_add_flag(mask, LV_OBJ_FLAG_CLICKABLE); // 拦截事件
-        
+
         lv_obj_t *popup = lv_obj_create(mask);
         lv_obj_set_size(popup, 320, 180);
         lv_obj_align(popup, LV_ALIGN_CENTER, 0, 0);

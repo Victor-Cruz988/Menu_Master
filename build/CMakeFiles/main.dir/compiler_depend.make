@@ -1568,7 +1568,8 @@ CMakeFiles/main.dir/main.c.o: ../main.c \
   /usr/local/arm-linux/arm-linux-gnueabi/libc/usr/include/bits/stdio_lim.h \
   /usr/local/arm-linux/arm-linux-gnueabi/libc/usr/include/bits/sys_errlist.h \
   ../mysrc/ui_login.h \
-  ../mysrc/ui_admin.h
+  ../mysrc/ui_admin.h \
+  ../mysrc/guest_my.h
 
 CMakeFiles/main.dir/mouse_cursor_icon.c.o: ../mouse_cursor_icon.c \
   /usr/local/arm-linux/arm-linux-gnueabi/libc/usr/include/stdc-predef.h \
@@ -2793,7 +2794,14 @@ CMakeFiles/main.dir/mysrc/ui_admin.c.o: ../mysrc/ui_admin.c \
   ../lvgl/src/font/lv_font_fmt_txt.h \
   ../lvgl/src/tick/lv_tick.h \
   ../lvgl/src/layouts/lv_layout.h \
-  ../font/lv_mysongti_font_20.h
+  ../font/lv_mysongti_font_20.h \
+  /usr/local/arm-linux/arm-linux-gnueabi/libc/usr/include/stdio.h \
+  /usr/local/arm-linux/arm-linux-gnueabi/libc/usr/include/libio.h \
+  /usr/local/arm-linux/arm-linux-gnueabi/libc/usr/include/_G_config.h \
+  /usr/local/arm-linux/arm-linux-gnueabi/libc/usr/include/wchar.h \
+  /usr/local/arm-linux/arm-linux-gnueabi/libc/usr/include/bits/stdio_lim.h \
+  /usr/local/arm-linux/arm-linux-gnueabi/libc/usr/include/bits/sys_errlist.h \
+  /usr/local/arm-linux/arm-linux-gnueabi/libc/usr/include/ctype.h
 
 CMakeFiles/main.dir/mysrc/ui_guest.c.o: ../mysrc/ui_guest.c \
   /usr/local/arm-linux/arm-linux-gnueabi/libc/usr/include/stdc-predef.h \
@@ -3656,9 +3664,9 @@ CMakeFiles/main.dir/mysrc/ui_login.c.o: ../mysrc/ui_login.c \
 
 /usr/local/arm-linux/arm-linux-gnueabi/libc/usr/include/errno.h:
 
-/usr/local/arm-linux/arm-linux-gnueabi/libc/usr/include/ctype.h:
-
 /usr/local/arm-linux/arm-linux-gnueabi/libc/usr/include/fcntl.h:
+
+/usr/local/arm-linux/arm-linux-gnueabi/libc/usr/include/ctype.h:
 
 ../mysrc/ui_admin.c:
 

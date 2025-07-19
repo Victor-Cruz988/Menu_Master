@@ -434,4 +434,5 @@ CMakeFiles/main.dir/main.c.o: /home/victor/0-project1/main.c \
  /usr/local/arm-linux/arm-linux-gnueabi/libc/usr/include/bits/stdio_lim.h \
  /usr/local/arm-linux/arm-linux-gnueabi/libc/usr/include/bits/sys_errlist.h \
  /home/victor/0-project1/mysrc/ui_login.h \
- /home/victor/0-project1/mysrc/ui_admin.h
+ /home/victor/0-project1/mysrc/ui_admin.h \
+ /home/victor/0-project1/mysrc/guest_my.h

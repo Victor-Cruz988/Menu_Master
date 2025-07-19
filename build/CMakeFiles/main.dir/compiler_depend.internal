@@ -1573,6 +1573,7 @@ CMakeFiles/main.dir/main.c.o
  /usr/local/arm-linux/arm-linux-gnueabi/libc/usr/include/bits/sys_errlist.h
  /home/victor/0-project1/mysrc/ui_login.h
  /home/victor/0-project1/mysrc/ui_admin.h
+ /home/victor/0-project1/mysrc/guest_my.h
 
 CMakeFiles/main.dir/mouse_cursor_icon.c.o
  /home/victor/0-project1/mouse_cursor_icon.c
@@ -2801,6 +2802,13 @@ CMakeFiles/main.dir/mysrc/ui_admin.c.o
  /home/victor/0-project1/lvgl/src/tick/lv_tick.h
  /home/victor/0-project1/lvgl/src/layouts/lv_layout.h
  /home/victor/0-project1/font/lv_mysongti_font_20.h
+ /usr/local/arm-linux/arm-linux-gnueabi/libc/usr/include/stdio.h
+ /usr/local/arm-linux/arm-linux-gnueabi/libc/usr/include/libio.h
+ /usr/local/arm-linux/arm-linux-gnueabi/libc/usr/include/_G_config.h
+ /usr/local/arm-linux/arm-linux-gnueabi/libc/usr/include/wchar.h
+ /usr/local/arm-linux/arm-linux-gnueabi/libc/usr/include/bits/stdio_lim.h
+ /usr/local/arm-linux/arm-linux-gnueabi/libc/usr/include/bits/sys_errlist.h
+ /usr/local/arm-linux/arm-linux-gnueabi/libc/usr/include/ctype.h
 
 CMakeFiles/main.dir/mysrc/ui_guest.c.o
  /home/victor/0-project1/mysrc/ui_guest.c

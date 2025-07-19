@@ -402,4 +402,11 @@ CMakeFiles/main.dir/mysrc/ui_admin.c.o: \
  /home/victor/0-project1/lvgl/src/core/../font/lv_font_fmt_txt.h \
  /home/victor/0-project1/lvgl/src/core/../tick/lv_tick.h \
  /home/victor/0-project1/lvgl/src/core/../layouts/lv_layout.h \
- /home/victor/0-project1/font/lv_mysongti_font_20.h
+ /home/victor/0-project1/font/lv_mysongti_font_20.h \
+ /usr/local/arm-linux/arm-linux-gnueabi/libc/usr/include/stdio.h \
+ /usr/local/arm-linux/arm-linux-gnueabi/libc/usr/include/libio.h \
+ /usr/local/arm-linux/arm-linux-gnueabi/libc/usr/include/_G_config.h \
+ /usr/local/arm-linux/arm-linux-gnueabi/libc/usr/include/wchar.h \
+ /usr/local/arm-linux/arm-linux-gnueabi/libc/usr/include/bits/stdio_lim.h \
+ /usr/local/arm-linux/arm-linux-gnueabi/libc/usr/include/bits/sys_errlist.h \
+ /usr/local/arm-linux/arm-linux-gnueabi/libc/usr/include/ctype.h
