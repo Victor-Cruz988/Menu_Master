@@ -1,5 +1,5 @@
-CMakeFiles/main.dir/mysrc/ui_guest.c.o: \
- /home/victor/0-project1/mysrc/ui_guest.c \
+CMakeFiles/main.dir/code/src/ui_login.c.o: \
+ /home/victor/0-project1/code/src/ui_login.c \
  /usr/local/arm-linux/arm-linux-gnueabi/libc/usr/include/stdc-predef.h \
  /home/victor/0-project1/include.h \
  /usr/local/arm-linux/arm-linux-gnueabi/libc/usr/include/stdio.h \
@@ -433,7 +433,7 @@ CMakeFiles/main.dir/mysrc/ui_guest.c.o: \
  /home/victor/0-project1/lvgl/lvgl.h \
  /home/victor/0-project1/font/lv_mysongti_font_30.h \
  /home/victor/0-project1/font/gouwuche.h /mnt/d/0-project1/lvgl/lvgl.h \
- /home/victor/0-project1/mysrc/ui_guest.h \
- /home/victor/0-project1/mysrc/ui_login.h \
- /home/victor/0-project1/mysrc/guest_my.h \
- /home/victor/0-project1/mysrc/ui_admin.h
+ /home/victor/0-project1/code/include/ui_guest.h \
+ /home/victor/0-project1/code/include/ui_login.h \
+ /home/victor/0-project1/code/include/guest_my.h \
+ /home/victor/0-project1/code/include/ui_admin.h

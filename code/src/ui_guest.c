@@ -1,15 +1,4 @@
-#include "ui_guest.h"
-#include "guest_my.h"
-#include "lvgl/lvgl.h"
-#include "lv_mysongti_font_20.h"
-#include "lv_mysongti_font_30.h"
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
-#include <fcntl.h>
-#include <unistd.h>
-#include <time.h>
-#include <ctype.h>
+#include "include.h"
 
 #define DISHES_FILE "data/dishes.txt"
 #define MAX_DISHES 100
@@ -515,7 +504,8 @@ void ui_guest_create(void)
     // lv_obj_add_event_cb(cart_btn, cart_btn_event_cb, LV_EVENT_CLICKED, NULL);
 
     lv_obj_t *cart_lbl = lv_image_create(scr);
-    lv_image_set_src(cart_lbl, "A:/home/menu_master/data/image/gouwuche.bmp");
+    //lv_image_set_src(cart_lbl, "A:/home/menu_master/data/image/gouwuche.bmp");
+    lv_image_set_src(cart_lbl, &gouwuche);
     lv_obj_set_size(cart_lbl, 50, 50);
     lv_obj_align(cart_lbl, LV_ALIGN_BOTTOM_RIGHT, -5, -20);
     lv_obj_add_flag(cart_lbl, LV_OBJ_FLAG_CLICKABLE); // 使图片可点击

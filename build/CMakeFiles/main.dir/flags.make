@@ -4,7 +4,7 @@
 # compile C with /usr/local/arm-linux/bin//arm-linux-gcc
 C_DEFINES = -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE
 
-C_INCLUDES = -I/home/victor/0-project1/mysrc -I/home/victor/0-project1/font -I/home/victor/0-project1 -isystem /home/victor/0-project1/lvgl -isystem /home/victor/0-project1/lvgl/examples -isystem /home/victor/0-project1/lvgl/demos -isystem /home/victor/0-project1/lvgl/src/libs/thorvg
+C_INCLUDES = -I/home/victor/0-project1/code/include -I/home/victor/0-project1/font -I/home/victor/0-project1 -isystem /home/victor/0-project1/lvgl -isystem /home/victor/0-project1/lvgl/examples -isystem /home/victor/0-project1/lvgl/demos -isystem /home/victor/0-project1/lvgl/src/libs/thorvg
 
 C_FLAGS = -std=gnu99
 

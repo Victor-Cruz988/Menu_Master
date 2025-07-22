@@ -1,13 +1,4 @@
-#include "guest_my.h"
-#include "lvgl/lvgl.h"
-#include "lv_mysongti_font_20.h"
-#include "lv_mysongti_font_30.h"
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
-#include <dirent.h>
-#include "ui_guest.h"
-#include "ui_login.h"
+#include "include.h"
 
 #define ORDER_DIR "data/order/"
 #define MAX_ORDERS 100

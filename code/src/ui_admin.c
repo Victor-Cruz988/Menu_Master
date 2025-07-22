@@ -1,11 +1,4 @@
-#include "ui_admin.h"
-#include "ui_login.h"
-#include "lvgl/lvgl.h"
-#include "lv_mysongti_font_20.h"
-#include <stdio.h>
-#include <string.h>
-#include <stdlib.h>
-#include <ctype.h>
+#include "include.h"
 
 static void btn_event_cb(lv_event_t *e);
 static void modify_price_event_cb(lv_event_t *e);

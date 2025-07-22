@@ -97,66 +97,80 @@ CMakeFiles/main.dir/mouse_cursor_icon.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/main.dir/mouse_cursor_icon.c.s"
 	/usr/local/arm-linux/bin//arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/victor/0-project1/mouse_cursor_icon.c -o CMakeFiles/main.dir/mouse_cursor_icon.c.s
 
-CMakeFiles/main.dir/mysrc/ui_login.c.o: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/mysrc/ui_login.c.o: ../mysrc/ui_login.c
-CMakeFiles/main.dir/mysrc/ui_login.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/victor/0-project1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/main.dir/mysrc/ui_login.c.o"
-	/usr/local/arm-linux/bin//arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/mysrc/ui_login.c.o -MF CMakeFiles/main.dir/mysrc/ui_login.c.o.d -o CMakeFiles/main.dir/mysrc/ui_login.c.o -c /home/victor/0-project1/mysrc/ui_login.c
+CMakeFiles/main.dir/code/src/guest_my.c.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/code/src/guest_my.c.o: ../code/src/guest_my.c
+CMakeFiles/main.dir/code/src/guest_my.c.o: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/victor/0-project1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/main.dir/code/src/guest_my.c.o"
+	/usr/local/arm-linux/bin//arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/code/src/guest_my.c.o -MF CMakeFiles/main.dir/code/src/guest_my.c.o.d -o CMakeFiles/main.dir/code/src/guest_my.c.o -c /home/victor/0-project1/code/src/guest_my.c
 
-CMakeFiles/main.dir/mysrc/ui_login.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/main.dir/mysrc/ui_login.c.i"
-	/usr/local/arm-linux/bin//arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/victor/0-project1/mysrc/ui_login.c > CMakeFiles/main.dir/mysrc/ui_login.c.i
+CMakeFiles/main.dir/code/src/guest_my.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/main.dir/code/src/guest_my.c.i"
+	/usr/local/arm-linux/bin//arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/victor/0-project1/code/src/guest_my.c > CMakeFiles/main.dir/code/src/guest_my.c.i
 
-CMakeFiles/main.dir/mysrc/ui_login.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/main.dir/mysrc/ui_login.c.s"
-	/usr/local/arm-linux/bin//arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/victor/0-project1/mysrc/ui_login.c -o CMakeFiles/main.dir/mysrc/ui_login.c.s
+CMakeFiles/main.dir/code/src/guest_my.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/main.dir/code/src/guest_my.c.s"
+	/usr/local/arm-linux/bin//arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/victor/0-project1/code/src/guest_my.c -o CMakeFiles/main.dir/code/src/guest_my.c.s
 
-CMakeFiles/main.dir/mysrc/ui_admin.c.o: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/mysrc/ui_admin.c.o: ../mysrc/ui_admin.c
-CMakeFiles/main.dir/mysrc/ui_admin.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/victor/0-project1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/main.dir/mysrc/ui_admin.c.o"
-	/usr/local/arm-linux/bin//arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/mysrc/ui_admin.c.o -MF CMakeFiles/main.dir/mysrc/ui_admin.c.o.d -o CMakeFiles/main.dir/mysrc/ui_admin.c.o -c /home/victor/0-project1/mysrc/ui_admin.c
+CMakeFiles/main.dir/code/src/ui_admin.c.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/code/src/ui_admin.c.o: ../code/src/ui_admin.c
+CMakeFiles/main.dir/code/src/ui_admin.c.o: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/victor/0-project1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/main.dir/code/src/ui_admin.c.o"
+	/usr/local/arm-linux/bin//arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/code/src/ui_admin.c.o -MF CMakeFiles/main.dir/code/src/ui_admin.c.o.d -o CMakeFiles/main.dir/code/src/ui_admin.c.o -c /home/victor/0-project1/code/src/ui_admin.c
 
-CMakeFiles/main.dir/mysrc/ui_admin.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/main.dir/mysrc/ui_admin.c.i"
-	/usr/local/arm-linux/bin//arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/victor/0-project1/mysrc/ui_admin.c > CMakeFiles/main.dir/mysrc/ui_admin.c.i
+CMakeFiles/main.dir/code/src/ui_admin.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/main.dir/code/src/ui_admin.c.i"
+	/usr/local/arm-linux/bin//arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/victor/0-project1/code/src/ui_admin.c > CMakeFiles/main.dir/code/src/ui_admin.c.i
 
-CMakeFiles/main.dir/mysrc/ui_admin.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/main.dir/mysrc/ui_admin.c.s"
-	/usr/local/arm-linux/bin//arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/victor/0-project1/mysrc/ui_admin.c -o CMakeFiles/main.dir/mysrc/ui_admin.c.s
+CMakeFiles/main.dir/code/src/ui_admin.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/main.dir/code/src/ui_admin.c.s"
+	/usr/local/arm-linux/bin//arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/victor/0-project1/code/src/ui_admin.c -o CMakeFiles/main.dir/code/src/ui_admin.c.s
 
-CMakeFiles/main.dir/mysrc/ui_guest.c.o: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/mysrc/ui_guest.c.o: ../mysrc/ui_guest.c
-CMakeFiles/main.dir/mysrc/ui_guest.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/victor/0-project1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/main.dir/mysrc/ui_guest.c.o"
-	/usr/local/arm-linux/bin//arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/mysrc/ui_guest.c.o -MF CMakeFiles/main.dir/mysrc/ui_guest.c.o.d -o CMakeFiles/main.dir/mysrc/ui_guest.c.o -c /home/victor/0-project1/mysrc/ui_guest.c
+CMakeFiles/main.dir/code/src/ui_guest.c.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/code/src/ui_guest.c.o: ../code/src/ui_guest.c
+CMakeFiles/main.dir/code/src/ui_guest.c.o: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/victor/0-project1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/main.dir/code/src/ui_guest.c.o"
+	/usr/local/arm-linux/bin//arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/code/src/ui_guest.c.o -MF CMakeFiles/main.dir/code/src/ui_guest.c.o.d -o CMakeFiles/main.dir/code/src/ui_guest.c.o -c /home/victor/0-project1/code/src/ui_guest.c
 
-CMakeFiles/main.dir/mysrc/ui_guest.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/main.dir/mysrc/ui_guest.c.i"
-	/usr/local/arm-linux/bin//arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/victor/0-project1/mysrc/ui_guest.c > CMakeFiles/main.dir/mysrc/ui_guest.c.i
+CMakeFiles/main.dir/code/src/ui_guest.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/main.dir/code/src/ui_guest.c.i"
+	/usr/local/arm-linux/bin//arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/victor/0-project1/code/src/ui_guest.c > CMakeFiles/main.dir/code/src/ui_guest.c.i
 
-CMakeFiles/main.dir/mysrc/ui_guest.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/main.dir/mysrc/ui_guest.c.s"
-	/usr/local/arm-linux/bin//arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/victor/0-project1/mysrc/ui_guest.c -o CMakeFiles/main.dir/mysrc/ui_guest.c.s
+CMakeFiles/main.dir/code/src/ui_guest.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/main.dir/code/src/ui_guest.c.s"
+	/usr/local/arm-linux/bin//arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/victor/0-project1/code/src/ui_guest.c -o CMakeFiles/main.dir/code/src/ui_guest.c.s
 
-CMakeFiles/main.dir/mysrc/guest_my.c.o: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/mysrc/guest_my.c.o: ../mysrc/guest_my.c
-CMakeFiles/main.dir/mysrc/guest_my.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/victor/0-project1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/main.dir/mysrc/guest_my.c.o"
-	/usr/local/arm-linux/bin//arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/mysrc/guest_my.c.o -MF CMakeFiles/main.dir/mysrc/guest_my.c.o.d -o CMakeFiles/main.dir/mysrc/guest_my.c.o -c /home/victor/0-project1/mysrc/guest_my.c
+CMakeFiles/main.dir/code/src/ui_login.c.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/code/src/ui_login.c.o: ../code/src/ui_login.c
+CMakeFiles/main.dir/code/src/ui_login.c.o: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/victor/0-project1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/main.dir/code/src/ui_login.c.o"
+	/usr/local/arm-linux/bin//arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/code/src/ui_login.c.o -MF CMakeFiles/main.dir/code/src/ui_login.c.o.d -o CMakeFiles/main.dir/code/src/ui_login.c.o -c /home/victor/0-project1/code/src/ui_login.c
 
-CMakeFiles/main.dir/mysrc/guest_my.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/main.dir/mysrc/guest_my.c.i"
-	/usr/local/arm-linux/bin//arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/victor/0-project1/mysrc/guest_my.c > CMakeFiles/main.dir/mysrc/guest_my.c.i
+CMakeFiles/main.dir/code/src/ui_login.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/main.dir/code/src/ui_login.c.i"
+	/usr/local/arm-linux/bin//arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/victor/0-project1/code/src/ui_login.c > CMakeFiles/main.dir/code/src/ui_login.c.i
 
-CMakeFiles/main.dir/mysrc/guest_my.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/main.dir/mysrc/guest_my.c.s"
-	/usr/local/arm-linux/bin//arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/victor/0-project1/mysrc/guest_my.c -o CMakeFiles/main.dir/mysrc/guest_my.c.s
+CMakeFiles/main.dir/code/src/ui_login.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/main.dir/code/src/ui_login.c.s"
+	/usr/local/arm-linux/bin//arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/victor/0-project1/code/src/ui_login.c -o CMakeFiles/main.dir/code/src/ui_login.c.s
+
+CMakeFiles/main.dir/font/gouwuche.c.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/font/gouwuche.c.o: ../font/gouwuche.c
+CMakeFiles/main.dir/font/gouwuche.c.o: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/victor/0-project1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/main.dir/font/gouwuche.c.o"
+	/usr/local/arm-linux/bin//arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/font/gouwuche.c.o -MF CMakeFiles/main.dir/font/gouwuche.c.o.d -o CMakeFiles/main.dir/font/gouwuche.c.o -c /home/victor/0-project1/font/gouwuche.c
+
+CMakeFiles/main.dir/font/gouwuche.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/main.dir/font/gouwuche.c.i"
+	/usr/local/arm-linux/bin//arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/victor/0-project1/font/gouwuche.c > CMakeFiles/main.dir/font/gouwuche.c.i
+
+CMakeFiles/main.dir/font/gouwuche.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/main.dir/font/gouwuche.c.s"
+	/usr/local/arm-linux/bin//arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/victor/0-project1/font/gouwuche.c -o CMakeFiles/main.dir/font/gouwuche.c.s
 
 CMakeFiles/main.dir/font/lv_mysongti_font_20.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/font/lv_mysongti_font_20.c.o: ../font/lv_mysongti_font_20.c
 CMakeFiles/main.dir/font/lv_mysongti_font_20.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/victor/0-project1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/main.dir/font/lv_mysongti_font_20.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/victor/0-project1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/main.dir/font/lv_mysongti_font_20.c.o"
 	/usr/local/arm-linux/bin//arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/font/lv_mysongti_font_20.c.o -MF CMakeFiles/main.dir/font/lv_mysongti_font_20.c.o.d -o CMakeFiles/main.dir/font/lv_mysongti_font_20.c.o -c /home/victor/0-project1/font/lv_mysongti_font_20.c
 
 CMakeFiles/main.dir/font/lv_mysongti_font_20.c.i: cmake_force
@@ -170,7 +184,7 @@ CMakeFiles/main.dir/font/lv_mysongti_font_20.c.s: cmake_force
 CMakeFiles/main.dir/font/lv_mysongti_font_30.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/font/lv_mysongti_font_30.c.o: ../font/lv_mysongti_font_30.c
 CMakeFiles/main.dir/font/lv_mysongti_font_30.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/victor/0-project1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/main.dir/font/lv_mysongti_font_30.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/victor/0-project1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/main.dir/font/lv_mysongti_font_30.c.o"
 	/usr/local/arm-linux/bin//arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/font/lv_mysongti_font_30.c.o -MF CMakeFiles/main.dir/font/lv_mysongti_font_30.c.o.d -o CMakeFiles/main.dir/font/lv_mysongti_font_30.c.o -c /home/victor/0-project1/font/lv_mysongti_font_30.c
 
 CMakeFiles/main.dir/font/lv_mysongti_font_30.c.i: cmake_force
@@ -184,7 +198,7 @@ CMakeFiles/main.dir/font/lv_mysongti_font_30.c.s: cmake_force
 CMakeFiles/main.dir/font/lv_mysongti_font_40.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/font/lv_mysongti_font_40.c.o: ../font/lv_mysongti_font_40.c
 CMakeFiles/main.dir/font/lv_mysongti_font_40.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/victor/0-project1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/main.dir/font/lv_mysongti_font_40.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/victor/0-project1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/main.dir/font/lv_mysongti_font_40.c.o"
 	/usr/local/arm-linux/bin//arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/font/lv_mysongti_font_40.c.o -MF CMakeFiles/main.dir/font/lv_mysongti_font_40.c.o.d -o CMakeFiles/main.dir/font/lv_mysongti_font_40.c.o -c /home/victor/0-project1/font/lv_mysongti_font_40.c
 
 CMakeFiles/main.dir/font/lv_mysongti_font_40.c.i: cmake_force
@@ -199,10 +213,11 @@ CMakeFiles/main.dir/font/lv_mysongti_font_40.c.s: cmake_force
 main_OBJECTS = \
 "CMakeFiles/main.dir/main.c.o" \
 "CMakeFiles/main.dir/mouse_cursor_icon.c.o" \
-"CMakeFiles/main.dir/mysrc/ui_login.c.o" \
-"CMakeFiles/main.dir/mysrc/ui_admin.c.o" \
-"CMakeFiles/main.dir/mysrc/ui_guest.c.o" \
-"CMakeFiles/main.dir/mysrc/guest_my.c.o" \
+"CMakeFiles/main.dir/code/src/guest_my.c.o" \
+"CMakeFiles/main.dir/code/src/ui_admin.c.o" \
+"CMakeFiles/main.dir/code/src/ui_guest.c.o" \
+"CMakeFiles/main.dir/code/src/ui_login.c.o" \
+"CMakeFiles/main.dir/font/gouwuche.c.o" \
 "CMakeFiles/main.dir/font/lv_mysongti_font_20.c.o" \
 "CMakeFiles/main.dir/font/lv_mysongti_font_30.c.o" \
 "CMakeFiles/main.dir/font/lv_mysongti_font_40.c.o"
@@ -212,10 +227,11 @@ main_EXTERNAL_OBJECTS =
 
 ../bin/main: CMakeFiles/main.dir/main.c.o
 ../bin/main: CMakeFiles/main.dir/mouse_cursor_icon.c.o
-../bin/main: CMakeFiles/main.dir/mysrc/ui_login.c.o
-../bin/main: CMakeFiles/main.dir/mysrc/ui_admin.c.o
-../bin/main: CMakeFiles/main.dir/mysrc/ui_guest.c.o
-../bin/main: CMakeFiles/main.dir/mysrc/guest_my.c.o
+../bin/main: CMakeFiles/main.dir/code/src/guest_my.c.o
+../bin/main: CMakeFiles/main.dir/code/src/ui_admin.c.o
+../bin/main: CMakeFiles/main.dir/code/src/ui_guest.c.o
+../bin/main: CMakeFiles/main.dir/code/src/ui_login.c.o
+../bin/main: CMakeFiles/main.dir/font/gouwuche.c.o
 ../bin/main: CMakeFiles/main.dir/font/lv_mysongti_font_20.c.o
 ../bin/main: CMakeFiles/main.dir/font/lv_mysongti_font_30.c.o
 ../bin/main: CMakeFiles/main.dir/font/lv_mysongti_font_40.c.o
@@ -226,7 +242,7 @@ main_EXTERNAL_OBJECTS =
 ../bin/main: lvgl/liblvgl_thorvg.a
 ../bin/main: lib/liblvgl.a
 ../bin/main: CMakeFiles/main.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/victor/0-project1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable ../bin/main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/victor/0-project1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable ../bin/main"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/main.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

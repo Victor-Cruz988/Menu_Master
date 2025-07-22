@@ -2,6 +2,8 @@
     "files.associations": {
         "stdio.h": "c",
         "fcntl.h": "c",
-        "lv_color.h": "c"
+        "lv_color.h": "c",
+        "ui_guest.h": "c",
+        "ui_login.h": "c"
     }
 }

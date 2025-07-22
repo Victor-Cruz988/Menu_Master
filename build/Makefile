@@ -239,6 +239,126 @@ lvgl_demos/fast:
 	$(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/build
 .PHONY : lvgl_demos/fast
 
+code/src/guest_my.o: code/src/guest_my.c.o
+.PHONY : code/src/guest_my.o
+
+# target to build an object file
+code/src/guest_my.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/code/src/guest_my.c.o
+.PHONY : code/src/guest_my.c.o
+
+code/src/guest_my.i: code/src/guest_my.c.i
+.PHONY : code/src/guest_my.i
+
+# target to preprocess a source file
+code/src/guest_my.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/code/src/guest_my.c.i
+.PHONY : code/src/guest_my.c.i
+
+code/src/guest_my.s: code/src/guest_my.c.s
+.PHONY : code/src/guest_my.s
+
+# target to generate assembly for a file
+code/src/guest_my.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/code/src/guest_my.c.s
+.PHONY : code/src/guest_my.c.s
+
+code/src/ui_admin.o: code/src/ui_admin.c.o
+.PHONY : code/src/ui_admin.o
+
+# target to build an object file
+code/src/ui_admin.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/code/src/ui_admin.c.o
+.PHONY : code/src/ui_admin.c.o
+
+code/src/ui_admin.i: code/src/ui_admin.c.i
+.PHONY : code/src/ui_admin.i
+
+# target to preprocess a source file
+code/src/ui_admin.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/code/src/ui_admin.c.i
+.PHONY : code/src/ui_admin.c.i
+
+code/src/ui_admin.s: code/src/ui_admin.c.s
+.PHONY : code/src/ui_admin.s
+
+# target to generate assembly for a file
+code/src/ui_admin.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/code/src/ui_admin.c.s
+.PHONY : code/src/ui_admin.c.s
+
+code/src/ui_guest.o: code/src/ui_guest.c.o
+.PHONY : code/src/ui_guest.o
+
+# target to build an object file
+code/src/ui_guest.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/code/src/ui_guest.c.o
+.PHONY : code/src/ui_guest.c.o
+
+code/src/ui_guest.i: code/src/ui_guest.c.i
+.PHONY : code/src/ui_guest.i
+
+# target to preprocess a source file
+code/src/ui_guest.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/code/src/ui_guest.c.i
+.PHONY : code/src/ui_guest.c.i
+
+code/src/ui_guest.s: code/src/ui_guest.c.s
+.PHONY : code/src/ui_guest.s
+
+# target to generate assembly for a file
+code/src/ui_guest.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/code/src/ui_guest.c.s
+.PHONY : code/src/ui_guest.c.s
+
+code/src/ui_login.o: code/src/ui_login.c.o
+.PHONY : code/src/ui_login.o
+
+# target to build an object file
+code/src/ui_login.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/code/src/ui_login.c.o
+.PHONY : code/src/ui_login.c.o
+
+code/src/ui_login.i: code/src/ui_login.c.i
+.PHONY : code/src/ui_login.i
+
+# target to preprocess a source file
+code/src/ui_login.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/code/src/ui_login.c.i
+.PHONY : code/src/ui_login.c.i
+
+code/src/ui_login.s: code/src/ui_login.c.s
+.PHONY : code/src/ui_login.s
+
+# target to generate assembly for a file
+code/src/ui_login.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/code/src/ui_login.c.s
+.PHONY : code/src/ui_login.c.s
+
+font/gouwuche.o: font/gouwuche.c.o
+.PHONY : font/gouwuche.o
+
+# target to build an object file
+font/gouwuche.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/font/gouwuche.c.o
+.PHONY : font/gouwuche.c.o
+
+font/gouwuche.i: font/gouwuche.c.i
+.PHONY : font/gouwuche.i
+
+# target to preprocess a source file
+font/gouwuche.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/font/gouwuche.c.i
+.PHONY : font/gouwuche.c.i
+
+font/gouwuche.s: font/gouwuche.c.s
+.PHONY : font/gouwuche.s
+
+# target to generate assembly for a file
+font/gouwuche.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/font/gouwuche.c.s
+.PHONY : font/gouwuche.c.s
+
 font/lv_mysongti_font_20.o: font/lv_mysongti_font_20.c.o
 .PHONY : font/lv_mysongti_font_20.o
 
@@ -359,102 +479,6 @@ mouse_cursor_icon.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/mouse_cursor_icon.c.s
 .PHONY : mouse_cursor_icon.c.s
 
-mysrc/guest_my.o: mysrc/guest_my.c.o
-.PHONY : mysrc/guest_my.o
-
-# target to build an object file
-mysrc/guest_my.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/mysrc/guest_my.c.o
-.PHONY : mysrc/guest_my.c.o
-
-mysrc/guest_my.i: mysrc/guest_my.c.i
-.PHONY : mysrc/guest_my.i
-
-# target to preprocess a source file
-mysrc/guest_my.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/mysrc/guest_my.c.i
-.PHONY : mysrc/guest_my.c.i
-
-mysrc/guest_my.s: mysrc/guest_my.c.s
-.PHONY : mysrc/guest_my.s
-
-# target to generate assembly for a file
-mysrc/guest_my.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/mysrc/guest_my.c.s
-.PHONY : mysrc/guest_my.c.s
-
-mysrc/ui_admin.o: mysrc/ui_admin.c.o
-.PHONY : mysrc/ui_admin.o
-
-# target to build an object file
-mysrc/ui_admin.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/mysrc/ui_admin.c.o
-.PHONY : mysrc/ui_admin.c.o
-
-mysrc/ui_admin.i: mysrc/ui_admin.c.i
-.PHONY : mysrc/ui_admin.i
-
-# target to preprocess a source file
-mysrc/ui_admin.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/mysrc/ui_admin.c.i
-.PHONY : mysrc/ui_admin.c.i
-
-mysrc/ui_admin.s: mysrc/ui_admin.c.s
-.PHONY : mysrc/ui_admin.s
-
-# target to generate assembly for a file
-mysrc/ui_admin.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/mysrc/ui_admin.c.s
-.PHONY : mysrc/ui_admin.c.s
-
-mysrc/ui_guest.o: mysrc/ui_guest.c.o
-.PHONY : mysrc/ui_guest.o
-
-# target to build an object file
-mysrc/ui_guest.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/mysrc/ui_guest.c.o
-.PHONY : mysrc/ui_guest.c.o
-
-mysrc/ui_guest.i: mysrc/ui_guest.c.i
-.PHONY : mysrc/ui_guest.i
-
-# target to preprocess a source file
-mysrc/ui_guest.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/mysrc/ui_guest.c.i
-.PHONY : mysrc/ui_guest.c.i
-
-mysrc/ui_guest.s: mysrc/ui_guest.c.s
-.PHONY : mysrc/ui_guest.s
-
-# target to generate assembly for a file
-mysrc/ui_guest.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/mysrc/ui_guest.c.s
-.PHONY : mysrc/ui_guest.c.s
-
-mysrc/ui_login.o: mysrc/ui_login.c.o
-.PHONY : mysrc/ui_login.o
-
-# target to build an object file
-mysrc/ui_login.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/mysrc/ui_login.c.o
-.PHONY : mysrc/ui_login.c.o
-
-mysrc/ui_login.i: mysrc/ui_login.c.i
-.PHONY : mysrc/ui_login.i
-
-# target to preprocess a source file
-mysrc/ui_login.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/mysrc/ui_login.c.i
-.PHONY : mysrc/ui_login.c.i
-
-mysrc/ui_login.s: mysrc/ui_login.c.s
-.PHONY : mysrc/ui_login.s
-
-# target to generate assembly for a file
-mysrc/ui_login.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/mysrc/ui_login.c.s
-.PHONY : mysrc/ui_login.c.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -473,6 +497,21 @@ help:
 	@echo "... lvgl_examples"
 	@echo "... lvgl_thorvg"
 	@echo "... main"
+	@echo "... code/src/guest_my.o"
+	@echo "... code/src/guest_my.i"
+	@echo "... code/src/guest_my.s"
+	@echo "... code/src/ui_admin.o"
+	@echo "... code/src/ui_admin.i"
+	@echo "... code/src/ui_admin.s"
+	@echo "... code/src/ui_guest.o"
+	@echo "... code/src/ui_guest.i"
+	@echo "... code/src/ui_guest.s"
+	@echo "... code/src/ui_login.o"
+	@echo "... code/src/ui_login.i"
+	@echo "... code/src/ui_login.s"
+	@echo "... font/gouwuche.o"
+	@echo "... font/gouwuche.i"
+	@echo "... font/gouwuche.s"
 	@echo "... font/lv_mysongti_font_20.o"
 	@echo "... font/lv_mysongti_font_20.i"
 	@echo "... font/lv_mysongti_font_20.s"
@@ -488,18 +527,6 @@ help:
 	@echo "... mouse_cursor_icon.o"
 	@echo "... mouse_cursor_icon.i"
 	@echo "... mouse_cursor_icon.s"
-	@echo "... mysrc/guest_my.o"
-	@echo "... mysrc/guest_my.i"
-	@echo "... mysrc/guest_my.s"
-	@echo "... mysrc/ui_admin.o"
-	@echo "... mysrc/ui_admin.i"
-	@echo "... mysrc/ui_admin.s"
-	@echo "... mysrc/ui_guest.o"
-	@echo "... mysrc/ui_guest.i"
-	@echo "... mysrc/ui_guest.s"
-	@echo "... mysrc/ui_login.o"
-	@echo "... mysrc/ui_login.i"
-	@echo "... mysrc/ui_login.s"
 .PHONY : help
 
 

@@ -1,7 +1,63 @@
 CMakeFiles/main.dir/mysrc/guest_my.c.o: \
  /home/victor/0-project1/mysrc/guest_my.c \
  /usr/local/arm-linux/arm-linux-gnueabi/libc/usr/include/stdc-predef.h \
- /home/victor/0-project1/mysrc/guest_my.h \
+ /home/victor/0-project1/include.h \
+ /usr/local/arm-linux/arm-linux-gnueabi/libc/usr/include/stdio.h \
+ /usr/local/arm-linux/arm-linux-gnueabi/libc/usr/include/features.h \
+ /usr/local/arm-linux/arm-linux-gnueabi/libc/usr/include/sys/cdefs.h \
+ /usr/local/arm-linux/arm-linux-gnueabi/libc/usr/include/bits/wordsize.h \
+ /usr/local/arm-linux/arm-linux-gnueabi/libc/usr/include/gnu/stubs.h \
+ /usr/local/arm-linux/arm-linux-gnueabi/libc/usr/include/gnu/stubs-soft.h \
+ /usr/local/arm-linux/lib/gcc/arm-linux-gnueabi/5.5.0/include/stddef.h \
+ /usr/local/arm-linux/arm-linux-gnueabi/libc/usr/include/bits/types.h \
+ /usr/local/arm-linux/arm-linux-gnueabi/libc/usr/include/bits/typesizes.h \
+ /usr/local/arm-linux/arm-linux-gnueabi/libc/usr/include/libio.h \
+ /usr/local/arm-linux/arm-linux-gnueabi/libc/usr/include/_G_config.h \
+ /usr/local/arm-linux/arm-linux-gnueabi/libc/usr/include/wchar.h \
+ /usr/local/arm-linux/lib/gcc/arm-linux-gnueabi/5.5.0/include/stdarg.h \
+ /usr/local/arm-linux/arm-linux-gnueabi/libc/usr/include/bits/stdio_lim.h \
+ /usr/local/arm-linux/arm-linux-gnueabi/libc/usr/include/bits/sys_errlist.h \
+ /usr/local/arm-linux/arm-linux-gnueabi/libc/usr/include/stdlib.h \
+ /usr/local/arm-linux/arm-linux-gnueabi/libc/usr/include/bits/waitflags.h \
+ /usr/local/arm-linux/arm-linux-gnueabi/libc/usr/include/bits/waitstatus.h \
+ /usr/local/arm-linux/arm-linux-gnueabi/libc/usr/include/endian.h \
+ /usr/local/arm-linux/arm-linux-gnueabi/libc/usr/include/bits/endian.h \
+ /usr/local/arm-linux/arm-linux-gnueabi/libc/usr/include/bits/byteswap.h \
+ /usr/local/arm-linux/arm-linux-gnueabi/libc/usr/include/bits/byteswap-16.h \
+ /usr/local/arm-linux/arm-linux-gnueabi/libc/usr/include/sys/types.h \
+ /usr/local/arm-linux/arm-linux-gnueabi/libc/usr/include/time.h \
+ /usr/local/arm-linux/arm-linux-gnueabi/libc/usr/include/sys/select.h \
+ /usr/local/arm-linux/arm-linux-gnueabi/libc/usr/include/bits/select.h \
+ /usr/local/arm-linux/arm-linux-gnueabi/libc/usr/include/bits/sigset.h \
+ /usr/local/arm-linux/arm-linux-gnueabi/libc/usr/include/bits/time.h \
+ /usr/local/arm-linux/arm-linux-gnueabi/libc/usr/include/sys/sysmacros.h \
+ /usr/local/arm-linux/arm-linux-gnueabi/libc/usr/include/bits/pthreadtypes.h \
+ /usr/local/arm-linux/arm-linux-gnueabi/libc/usr/include/alloca.h \
+ /usr/local/arm-linux/arm-linux-gnueabi/libc/usr/include/bits/stdlib-float.h \
+ /usr/local/arm-linux/arm-linux-gnueabi/libc/usr/include/string.h \
+ /usr/local/arm-linux/arm-linux-gnueabi/libc/usr/include/xlocale.h \
+ /usr/local/arm-linux/arm-linux-gnueabi/libc/usr/include/fcntl.h \
+ /usr/local/arm-linux/arm-linux-gnueabi/libc/usr/include/bits/fcntl.h \
+ /usr/local/arm-linux/arm-linux-gnueabi/libc/usr/include/bits/fcntl-linux.h \
+ /usr/local/arm-linux/arm-linux-gnueabi/libc/usr/include/bits/stat.h \
+ /usr/local/arm-linux/arm-linux-gnueabi/libc/usr/include/unistd.h \
+ /usr/local/arm-linux/arm-linux-gnueabi/libc/usr/include/bits/posix_opt.h \
+ /usr/local/arm-linux/arm-linux-gnueabi/libc/usr/include/bits/environments.h \
+ /usr/local/arm-linux/arm-linux-gnueabi/libc/usr/include/bits/confname.h \
+ /usr/local/arm-linux/arm-linux-gnueabi/libc/usr/include/getopt.h \
+ /usr/local/arm-linux/arm-linux-gnueabi/libc/usr/include/sys/stat.h \
+ /usr/local/arm-linux/arm-linux-gnueabi/libc/usr/include/errno.h \
+ /usr/local/arm-linux/arm-linux-gnueabi/libc/usr/include/bits/errno.h \
+ /usr/local/arm-linux/arm-linux-gnueabi/libc/usr/include/linux/errno.h \
+ /usr/local/arm-linux/arm-linux-gnueabi/libc/usr/include/asm/errno.h \
+ /usr/local/arm-linux/arm-linux-gnueabi/libc/usr/include/asm-generic/errno.h \
+ /usr/local/arm-linux/arm-linux-gnueabi/libc/usr/include/asm-generic/errno-base.h \
+ /usr/local/arm-linux/arm-linux-gnueabi/libc/usr/include/ctype.h \
+ /usr/local/arm-linux/arm-linux-gnueabi/libc/usr/include/dirent.h \
+ /usr/local/arm-linux/arm-linux-gnueabi/libc/usr/include/bits/dirent.h \
+ /usr/local/arm-linux/arm-linux-gnueabi/libc/usr/include/bits/posix1_lim.h \
+ /usr/local/arm-linux/arm-linux-gnueabi/libc/usr/include/bits/local_lim.h \
+ /usr/local/arm-linux/arm-linux-gnueabi/libc/usr/include/linux/limits.h \
  /home/victor/0-project1/lvgl/lvgl.h \
  /home/victor/0-project1/lvgl/src/lv_init.h \
  /usr/local/arm-linux/lib/gcc/arm-linux-gnueabi/5.5.0/include/stdbool.h \
@@ -12,21 +68,12 @@ CMakeFiles/main.dir/mysrc/guest_my.c.o: \
  /home/victor/0-project1/lvgl/src/stdlib/../lv_conf_internal.h \
  /usr/local/arm-linux/lib/gcc/arm-linux-gnueabi/5.5.0/include/stdint.h \
  /usr/local/arm-linux/arm-linux-gnueabi/libc/usr/include/stdint.h \
- /usr/local/arm-linux/arm-linux-gnueabi/libc/usr/include/features.h \
- /usr/local/arm-linux/arm-linux-gnueabi/libc/usr/include/sys/cdefs.h \
- /usr/local/arm-linux/arm-linux-gnueabi/libc/usr/include/bits/wordsize.h \
- /usr/local/arm-linux/arm-linux-gnueabi/libc/usr/include/gnu/stubs.h \
- /usr/local/arm-linux/arm-linux-gnueabi/libc/usr/include/gnu/stubs-soft.h \
  /usr/local/arm-linux/arm-linux-gnueabi/libc/usr/include/bits/wchar.h \
- /usr/local/arm-linux/lib/gcc/arm-linux-gnueabi/5.5.0/include/stddef.h \
- /usr/local/arm-linux/arm-linux-gnueabi/libc/usr/include/string.h \
- /usr/local/arm-linux/arm-linux-gnueabi/libc/usr/include/xlocale.h \
  /home/victor/0-project1/lvgl/src/stdlib/../misc/lv_types.h \
  /home/victor/0-project1/lvgl/src/stdlib/../misc/../lv_conf_internal.h \
  /home/victor/0-project1/lvgl/src/stdlib/lv_string.h \
  /home/victor/0-project1/lvgl/src/stdlib/lv_sprintf.h \
  /usr/local/arm-linux/arm-linux-gnueabi/libc/usr/include/inttypes.h \
- /usr/local/arm-linux/lib/gcc/arm-linux-gnueabi/5.5.0/include/stdarg.h \
  /home/victor/0-project1/lvgl/src/misc/lv_log.h \
  /home/victor/0-project1/lvgl/src/misc/../lv_conf_internal.h \
  /home/victor/0-project1/lvgl/src/misc/lv_types.h \
@@ -76,25 +123,6 @@ CMakeFiles/main.dir/mysrc/guest_my.c.o: \
  /home/victor/0-project1/lvgl/src/core/../misc/../font/../misc/cache/../../osal/lv_os_none.h \
  /home/victor/0-project1/lvgl/src/core/../misc/../font/../misc/cache/../lv_types.h \
  /home/victor/0-project1/lvgl/src/core/../misc/../font/../misc/cache/lv_cache_private.h \
- /usr/local/arm-linux/arm-linux-gnueabi/libc/usr/include/stdlib.h \
- /usr/local/arm-linux/arm-linux-gnueabi/libc/usr/include/bits/waitflags.h \
- /usr/local/arm-linux/arm-linux-gnueabi/libc/usr/include/bits/waitstatus.h \
- /usr/local/arm-linux/arm-linux-gnueabi/libc/usr/include/endian.h \
- /usr/local/arm-linux/arm-linux-gnueabi/libc/usr/include/bits/endian.h \
- /usr/local/arm-linux/arm-linux-gnueabi/libc/usr/include/bits/byteswap.h \
- /usr/local/arm-linux/arm-linux-gnueabi/libc/usr/include/bits/types.h \
- /usr/local/arm-linux/arm-linux-gnueabi/libc/usr/include/bits/typesizes.h \
- /usr/local/arm-linux/arm-linux-gnueabi/libc/usr/include/bits/byteswap-16.h \
- /usr/local/arm-linux/arm-linux-gnueabi/libc/usr/include/sys/types.h \
- /usr/local/arm-linux/arm-linux-gnueabi/libc/usr/include/time.h \
- /usr/local/arm-linux/arm-linux-gnueabi/libc/usr/include/sys/select.h \
- /usr/local/arm-linux/arm-linux-gnueabi/libc/usr/include/bits/select.h \
- /usr/local/arm-linux/arm-linux-gnueabi/libc/usr/include/bits/sigset.h \
- /usr/local/arm-linux/arm-linux-gnueabi/libc/usr/include/bits/time.h \
- /usr/local/arm-linux/arm-linux-gnueabi/libc/usr/include/sys/sysmacros.h \
- /usr/local/arm-linux/arm-linux-gnueabi/libc/usr/include/bits/pthreadtypes.h \
- /usr/local/arm-linux/arm-linux-gnueabi/libc/usr/include/alloca.h \
- /usr/local/arm-linux/arm-linux-gnueabi/libc/usr/include/bits/stdlib-float.h \
  /home/victor/0-project1/lvgl/src/core/../misc/../font/../misc/cache/_lv_cache_lru_rb.h \
  /home/victor/0-project1/lvgl/src/core/../misc/../font/../misc/cache/lv_image_cache.h \
  /home/victor/0-project1/lvgl/src/core/../misc/lv_color.h \
@@ -402,17 +430,10 @@ CMakeFiles/main.dir/mysrc/guest_my.c.o: \
  /home/victor/0-project1/lvgl/src/core/../tick/lv_tick.h \
  /home/victor/0-project1/lvgl/src/core/../layouts/lv_layout.h \
  /home/victor/0-project1/font/lv_mysongti_font_20.h \
+ /home/victor/0-project1/lvgl/lvgl.h \
  /home/victor/0-project1/font/lv_mysongti_font_30.h \
- /usr/local/arm-linux/arm-linux-gnueabi/libc/usr/include/stdio.h \
- /usr/local/arm-linux/arm-linux-gnueabi/libc/usr/include/libio.h \
- /usr/local/arm-linux/arm-linux-gnueabi/libc/usr/include/_G_config.h \
- /usr/local/arm-linux/arm-linux-gnueabi/libc/usr/include/wchar.h \
- /usr/local/arm-linux/arm-linux-gnueabi/libc/usr/include/bits/stdio_lim.h \
- /usr/local/arm-linux/arm-linux-gnueabi/libc/usr/include/bits/sys_errlist.h \
- /usr/local/arm-linux/arm-linux-gnueabi/libc/usr/include/dirent.h \
- /usr/local/arm-linux/arm-linux-gnueabi/libc/usr/include/bits/dirent.h \
- /usr/local/arm-linux/arm-linux-gnueabi/libc/usr/include/bits/posix1_lim.h \
- /usr/local/arm-linux/arm-linux-gnueabi/libc/usr/include/bits/local_lim.h \
- /usr/local/arm-linux/arm-linux-gnueabi/libc/usr/include/linux/limits.h \
+ /home/victor/0-project1/font/gouwuche.h /mnt/d/0-project1/lvgl/lvgl.h \
  /home/victor/0-project1/mysrc/ui_guest.h \
- /home/victor/0-project1/mysrc/ui_login.h
+ /home/victor/0-project1/mysrc/ui_login.h \
+ /home/victor/0-project1/mysrc/guest_my.h \
+ /home/victor/0-project1/mysrc/ui_admin.h

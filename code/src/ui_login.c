@@ -1,17 +1,4 @@
-#include "ui_login.h"
-#include "lvgl/lvgl.h"
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
-#include "lv_mysongti_font_20.h"
-#include "lv_mysongti_font_30.h"
-#include <fcntl.h>
-#include <unistd.h>
-#include <sys/stat.h>
-#include <errno.h>
-#include "ui_admin.h"
-#include "ui_guest.h"
-#include "guest_my.h"
+#include "include.h"
 
 #define USER_FILE "data/users.txt"
 
@@ -285,7 +272,7 @@ void ui_login_create(void)
     lv_obj_align(username_ta, LV_ALIGN_TOP_MID, 0, 80);
     lv_obj_set_style_text_font(username_ta, &lv_mysongti_font_20, 0);
     lv_textarea_set_placeholder_text(username_ta, "用户名");
-    lv_textarea_set_text(username_ta, "admin"); // 默认输入guest
+    lv_textarea_set_text(username_ta, "guest"); // 默认输入guest
     lv_obj_add_event_cb(username_ta, ta_event_cb, LV_EVENT_ALL, NULL);
 
     // 密码输入框

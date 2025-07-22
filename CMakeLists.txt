@@ -18,8 +18,19 @@ set(EXECUTABLE_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/bin)
 add_subdirectory(lvgl)
 target_include_directories(lvgl PUBLIC ${PROJECT_SOURCE_DIR})
 
-add_executable(main main.c mouse_cursor_icon.c ./mysrc/ui_login.c ./mysrc/ui_admin.c ./mysrc/ui_guest.c ./mysrc/guest_my.c ./font/lv_mysongti_font_20.c ./font/lv_mysongti_font_30.c ./font/lv_mysongti_font_40.c)
-include_directories(${PROJECT_SOURCE_DIR}/mysrc)
+#add_executable(main main.c mouse_cursor_icon.c ./mysrc/ui_login.c ./mysrc/ui_admin.c ./mysrc/ui_guest.c ./mysrc/guest_my.c ./font/lv_mysongti_font_20.c ./font/lv_mysongti_font_30.c ./font/lv_mysongti_font_40.c ./font/gouwuche.c)
+# 收集 mysrc 目录下所有 .c 文件
+file(GLOB SRC_FILES "code/src/*.c")
+# 收集 font 目录下所有 .c 文件
+file(GLOB FONT_FILES "font/*.c")
+
+add_executable(main
+    main.c
+    mouse_cursor_icon.c
+    ${SRC_FILES}
+    ${FONT_FILES}
+)
+include_directories(${PROJECT_SOURCE_DIR}/code/include)
 include_directories(${PROJECT_SOURCE_DIR}/font)
 
 # 注释掉这行，如果要使用DRM驱动，则需要放开这行
